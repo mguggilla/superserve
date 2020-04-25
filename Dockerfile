@@ -1,6 +1,6 @@
 FROM java:8-jdk-alpine
 
-COPY ./build/libs/serving-web-content-0.0.1.jar /usr/webapp/
+COPY ./target/serving-web-content-0.0.1.jar /usr/webapp/
 
 WORKDIR /usr/webapp
 
